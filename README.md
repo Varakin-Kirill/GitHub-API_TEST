@@ -55,7 +55,11 @@
    ```bash
    USER_NAME = 'Your user name'
    ```
-7. **Запустите тест**
+7. **Укажите название вашего репозитория в файле .env**
+   ```bash
+   REPOSITORY_NAME = 'example-repo'
+   ```
+8. **Запустите тест**
    В корневой папке проекта выполните команду:
    ```bash
    pytest tests/test.py -v
