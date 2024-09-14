@@ -47,9 +47,13 @@
    - Сгенерируйте токен:
 
       Нажмите на "Generate token". GitHub покажет токен только один раз, поэтому обязательно скопируйте его и сохраните в безопасное место.
-6. **Укажите ваш GitHub токен в файл .env**
+5. **Укажите ваш GitHub токен в файл .env**
    ```bash
-   API_TOKEN = 'YOUR GitHub token'
+   API_TOKEN = 'Your GitHub token'
+   ```
+6. **Укажите ваш GitHub username в файле .env**
+   ```bash
+   USER_NAME = 'Your user name'
    ```
 7. **Запустите тест**
    В корневой папке проекта выполните команду:
