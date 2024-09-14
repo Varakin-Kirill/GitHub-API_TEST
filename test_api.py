@@ -7,7 +7,7 @@ import pytest
 @pytest.fixture()
 def init():
     load_dotenv()
-    token = os.getenv("API_TOKEN")
+    token = os.getenv("GITHUB_TOKEN")
     user_name = os.getenv("USER_NAME")
     repository_name = os.getenv("REPOSITORY_NAME")
     headers = {
